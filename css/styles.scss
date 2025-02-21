@@ -61,5 +61,11 @@ footer {
     border: solid $color-secondary;
 }
 
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
 @import 'modal';
 @import 'review-section';
